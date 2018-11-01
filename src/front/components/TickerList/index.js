@@ -5,7 +5,7 @@ import axios from 'axios';
 
 let start = 1;
 const limit = 8;
-const sort = 'id';
+const sort = 'rank';
 
 class TickerList extends Component {
 
