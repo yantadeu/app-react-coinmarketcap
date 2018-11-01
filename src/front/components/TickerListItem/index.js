@@ -1,6 +1,5 @@
 import React from 'react';
 import {Card, CardActions, CardMedia, CardTitle} from 'material-ui/Card';
-
 import {Label} from "react-bootstrap";
 
 const CardTicker = ({id, rank, website_slug, name, symbol, quotes}) => (
