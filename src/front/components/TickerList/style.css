@@ -1,0 +1,25 @@
+#ticker-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.ticker-list-item {
+  width: 300px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+@media(max-width: 781px){
+  .ticker-list-item {
+    width: 100%;
+  }
+}
+.ticker-span{
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+  width: 100%;
+}
+.ticker-label{
+  font-weight: bold;
+}
