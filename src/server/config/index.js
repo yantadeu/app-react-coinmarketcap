@@ -26,7 +26,7 @@ const config = convict({
     port: {
       doc: 'The server port number',
       format: 'port',
-      default: 3000,
+      default: (process.env.PORT || 3001),
       env: 'PORT',
     },
   },
