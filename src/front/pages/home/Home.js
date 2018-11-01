@@ -11,7 +11,8 @@ import {Link} from 'react-router-dom';
 import Jumbotron from 'reactstrap/lib/Jumbotron';
 import HomeInfo from './styled/HomeInfo';
 import MainTitle from './styled/MainTitle';
-import FlatButton from 'material-ui/FlatButton';
+import { withStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
 // #endregion
 
 // #region flow types
@@ -30,14 +31,17 @@ export type State = any;
 
 class Home extends PureComponent<Props, State> {
     // #region lifecycle
+
     render() {
         return (
             <div>
                 <Jumbotron>
                     <HomeInfo>
-                        <MainTitle>App React Redux Api-CoinMarketCap</MainTitle>
+                        <MainTitle>App React Redux Api-CoinMarketCap - Yan Tadeu</MainTitle>
                         <Link to={`/tickers`}>
-                            <FlatButton className="btn" label="Cotações"/>
+                            <Button variant="contained" color="primary" >
+                                Cotações
+                            </Button>
                         </Link>
                     </HomeInfo>
                 </Jumbotron>

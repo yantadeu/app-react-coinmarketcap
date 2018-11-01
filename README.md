@@ -5,24 +5,19 @@ Aplicação em React para consumir API Pública CoinMarketCap
 
 - React
 - Redux
-- Bootstrap
+- Bootstrap/ Material
+- Yarn
 
 
 ### Instalação
 
 ```bash
-npm install
+yarn install / npm install 
 ```
 ### bundle dev (*+ redux-devtools*)
 
 ```bash
 npm run dev
-```
-
-### dev (*+ redux-devtools*)
-
-```bash
-npm run start
 ```
 
 ### testes
@@ -38,3 +33,8 @@ npm run test
 npm run prod
 ```
 
+### iniciar aplicação
+
+```bash
+npm run start
+```
